@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import DocumentTitle from 'react-document-title';
 import './App.css';
+import Taskbar from './components/desktop/taskbar/taskbar.js';
+
+const electron = window.require('electron');
+
+const fs = electron.remote.require('fs');
+const ipcRenderer  = electron.ipcRenderer;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DocumentTitle title="Windows XD"/>
+      <Taskbar/>
     </div>
   );
 }

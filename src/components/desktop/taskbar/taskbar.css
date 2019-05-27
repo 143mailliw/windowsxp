@@ -1,0 +1,112 @@
+.StartButton {
+    background-image: linear-gradient(160deg, #8bbe8b 0%, #459845 100%, #459845 0%);
+    top: 0%;
+    left: 0px;
+    font-style: italic;
+    font-weight: 900;
+    height: 100%;
+    width: 97px;
+    position: absolute;
+    text-align: left;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    user-select: none;
+}
+
+.StartButton:hover {
+    background-image: linear-gradient(160deg, #8ccf8e 0%, #3fc93f 100%, #379135 0%);
+}
+
+.StartButtonActive {
+    background-image: linear-gradient(160deg, #30642f 0%, #1c7f1b 100%, #16891c 0%);
+}
+
+.StartButton:active {
+    background-image: linear-gradient(160deg, #30642f 0%, #1c7f1b 100%, #16891c 0%);
+}
+
+.StartButtonFiller{
+    height: 100%;
+    width: 97px;
+    position:static;
+}
+
+.StartButtonText {
+    position: absolute;
+    top: 1px;
+    left: 30px;
+    font-size: 22px;
+    color: white;
+}
+
+.StartButtonImage {
+    top: 6px;
+    left: 8px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.StartButtonHighlight {
+    top: 0px;
+    height: 12%;
+    width: 93px;
+    border-top-right-radius: 13px;
+    position: absolute;
+    background: linear-gradient(#8bbe8b 90%, #459845 10%, #459845 0%) center/cover no-repeat;
+}
+
+.StartButton:hover .StartButtonHighlight {
+    top: 0px;
+    height: 12%;
+    width: 93px;
+    border-top-right-radius: 13px;
+    position: absolute;
+    background: linear-gradient(#8bbe8b 90%, #459845 10%, #459845 0%) center/cover no-repeat;
+}
+
+.StartButtonHighlightActive {
+    background: linear-gradient(#30642f 90%, #1c7f1b 10%, #16891c 0%) center/cover no-repeat;
+}
+
+.StartButton:active .StartButtonHighlight {
+    background: linear-gradient(#30642f 90%, #1c7f1b 10%, #16891c 0%) center/cover no-repeat;
+}
+
+.NotificationTray {
+    height: 27px;
+    width: 75px;
+    background-image: linear-gradient(#1290e8 0%, #119deb 0%);
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.NotificationTrayHighlightUpper {
+    height: 7px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 88px;
+    background-image: linear-gradient(#095bc9 10%, #16aef0 10%, #16aef0 60%, #149eed 20%)
+}
+
+.NotificationTrayHighlightLeft {
+    height: 31px;
+    width: 5px;
+    left: 0px;
+    top: 1px;
+    position: absolute;
+    background-image: linear-gradient(90deg, #0a2e52 20%, #16aef0 10%, #16aef0 60%)
+}
+
+.Taskbar {
+    background:linear-gradient(to bottom, #245edb 0%, #3f8cf3 9%, #245edb 18%, #245edb 92%, #333 100%) center/cover no-repeat;
+    height: 32px;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
