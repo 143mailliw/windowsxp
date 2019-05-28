@@ -1,10 +1,90 @@
 .StartMenu {
     width: 381px;
     height: 427px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     position: absolute;
     bottom: 32px;
     left: 0px;
     background-color: white;
+}
+.StartMenuHeader {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 381px;
+    height: 63px;
+    position: absolute;
+    background-image: linear-gradient(#1061ca, #1a6bd4, #4792ef);
+}
+.StartMenuHeaderCorner {
+    border-top-right-radius: 5px;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: linear-gradient(210deg,#064aad, #0a58bc, #0e5dc2, #1162cb, #1263cc, #1867cc, #1667d0);
+}
+.StartMenuHeaderHighlightRight {
+    border-top-right-radius: 5px;
+    top: 0px;
+    right: 0px;
+    width: 4px;
+    height: 63px;
+    position: absolute;
+    background: linear-gradient(270deg,#014d9b, #195bb999, #2c6ece66);
+}
+.StartMenuHighlightRight {
+    top: 63px;
+    right: 0px;
+    width: 4px;
+    height: 364px;
+    position: absolute;
+    background-color: #044d9c;
+}
+
+.StartMenuHighlightGradient {
+    top: 63px;
+    left: 0px;
+    height: 2px;
+    width: 381px;
+    position: absolute;
+    z-index: 1;
+    background-image: radial-gradient(circle, #ff941f, #ffffff00);
+}
+
+.StartMenuFreqUsedPrograms {
+    top:63px;
+    left: 0px;
+    height: 323px;
+    width: 188px;
+    position: absolute;
+}
+
+.StartMenuShortcutHolder {
+    width: 187px;
+    height: 323px;
+    top: 63px;
+    left: 189px;
+    position: absolute;
+    background-color: #d4e5f9;
+    z-index: 0;
+}
+
+.StartMenuDivider {
+    top: 63px;
+    left: 188px;
+    position: absolute;
+    height: 323px;
+    width: 1px;
+    background-color: #96bbf0;
+}
+
+.StartMenuFooter {
+    top: 386px;
+    left: 0px;
+    height: 41px;
+    width: 377px;
+    position: absolute;
+    background: linear-gradient(#418ae6, #1065d2)
 }
